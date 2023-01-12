@@ -1,0 +1,16 @@
+com\acheron\mobilestore\configurations\WebSecurityConfig.class
+com\acheron\mobilestore\configurations\KeycloakRoleConverter.class
+com\acheron\mobilestore\controller\SecuredController.class
+com\acheron\mobilestore\exceptions\GlobalExceptionHandler.class
+com\acheron\mobilestore\model\Mobile.class
+com\acheron\mobilestore\repository\IMobileRepository.class
+com\acheron\mobilestore\model\ApiErrors.class
+com\acheron\mobilestore\ProductappApplication.class
+com\acheron\mobilestore\configurations\ArangoDbConfiguration.class
+com\acheron\mobilestore\exceptions\IdNotFoundException.class
+com\acheron\mobilestore\exceptions\NoDataException.class
+com\acheron\mobilestore\controller\MobileController.class
+com\acheron\mobilestore\service\MobileServiceImpl.class
+com\acheron\mobilestore\service\IMobileService.class
+com\acheron\mobilestore\repository\MobileRepositoryImpl.class
+com\acheron\mobilestore\util\Mapper.class

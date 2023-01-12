@@ -1,0 +1,14 @@
+eureka:
+  server:
+    enable-self-preservation: false
+  instance:
+   hostname: ${hostname}
+  client:
+   service-url:
+     default-zone: http://${hostname}:${server.port}
+   fetch-registry: false
+   register-with-eureka: false
+   
+spring:
+  application:
+    name: EUREKA-REGISTRY

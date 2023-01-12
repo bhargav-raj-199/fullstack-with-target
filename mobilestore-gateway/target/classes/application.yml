@@ -1,0 +1,19 @@
+spring:
+  application:
+     name: GATEWAY 
+  config:
+    import: configserver:http://${confighost}:${configport}
+eureka:
+  client:
+    service-url:
+      default-zone: http://EUREKA-REGISTRY
+
+     
+
+     
+
+
+
+
+   
+    
